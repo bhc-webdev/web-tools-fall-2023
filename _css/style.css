@@ -4,6 +4,12 @@
 /* #236AB9 med blue */
 /* #091D34 dark */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,6 +22,13 @@ main {
     margin: 0 auto;
 }
 
+.myBlue {
+    background-color: #236AB9;
+}
+
+.myBlueText {
+    color: #236AB9;
+}
 header {
     background-color: #236AB9;
     margin: 0;
@@ -24,12 +37,13 @@ header {
 
 nav {
     background-color: #236AB9;
-    height: 30px;
+    height: 50px;
 }
 
 footer {
     height: 200px;
     background-color:#091D34;
+    clear: both;
 }
 
 .yellowText {
@@ -55,3 +69,13 @@ a:link { color:#FFFF00; } /* unvisited link */
 a:visited { color:#00FF00; } /* visited link */
 a:hover { color:#FF00FF; } /* mouse over link */
 a:active { color:#0000FF; }  /* selected link */
+
+.santaCard {
+    max-width: 31%;
+    float: left;
+}
+
+.centerImage {
+    display: block;
+    margin: auto;
+}

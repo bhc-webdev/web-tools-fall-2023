@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa's Gallery</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
     <link rel="stylesheet" href="_css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="_favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="_favicon/apple-icon-60x60.png">
@@ -29,19 +30,42 @@
     <header>
         <h1 class="yellowText">Santa's Village</h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">Gallery</a> | <a
-            href="about.html">About</a> | <a href="contact.html">Contact</a>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="faq.html">FAQs</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="#">Contact Us</a>
+        <a href="about-us.html">About Us</a>
     </nav>
     <main>
         <h2>Santa's Gallery</h2>
-
-        <figure>
-            <a href="_images/santa1-lg.png" target="_blank"><img src="_images/santa1-thumb-trans.png"
-                    alt="Santa with toy bag"></a>
-            <figcaption>Santa's got a bag</figcaption>
-        </figure>
-
+        <section class="w3-container w3-card-4 w3-margin santaCard">
+            <h3 class="w3-center w3-green">Super Santa on his Way</h3>
+            <figure>
+                <img class="centerImage" src="_images/santa1-thumb-trans.png" alt="Santa with toy bag">
+                <figcaption class="w3-center">Santa's got a bag</figcaption>
+            </figure>
+        </section>
+        <section class="w3-container w3-card-4 w3-margin santaCard">
+            <h3 class="w3-center w3-green">Super Santa on his Way</h3>
+            <figure>
+                <img class="centerImage" src="_images/santa-head-shot-trans.png" alt="Santa Head">
+                <Figcaption class="w3-center">Santa's got a new reindeer</Figcaption>
+            </figure>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae odio blanditiis ex asperiores ipsam
+                debitis odit quas vel molestiae id aut alias incidunt minus, unde possimus iusto voluptas doloribus.
+                Distinctio.</p>
+        </section>
+        <section class="w3-container w3-card-4 w3-margin santaCard">
+            <h3 class="w3-center w3-green">Buny Drive Me Crazy!</h3>
+            <figure>
+                <img class="centerImage" src="_images/easter-bunny-car-thumb.png" alt="Easter Bunny">
+                <Figcaption class="w3-center">Easter Bunny</Figcaption>
+            </figure>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae odio blanditiis ex asperiores ipsam
+                debitis odit quas vel molestiae id aut alias incidunt minus, unde possimus iusto voluptas doloribus.
+                Distinctio.</p>
+        </section>
     </main>
     <footer>
         <h1 class="yellowText">Footer content goes here</h1>
